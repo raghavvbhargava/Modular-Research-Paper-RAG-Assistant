@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-03T11:02:04.375448",
+    "pdf_file": "e:\\GenAI Assignment 1\\sample_papers\\Analysis of the Effects of AI on healthcare  sector.pdf",
+    "query": "What are the potential benefits and drawbacks of using AI in the healthcare sector according to the paper?",
+    "llm_model": "gemini-1.5-flash"
+  },
+  "config_1": {
+    "config_name": "Config-1 (Small Chunks)",
+    "embed_model": "sentence-transformers/all-mpnet-base-v2",
+    "vector_store_type": "FAISS",
+    "answer": "According to the paper, the use of Artificial Intelligence (AI) in the healthcare sector presents several potential benefits and drawbacks.\n\n### Potential Benefits of AI in Healthcare\n\n*   **Accelerated Diagnosis and Treatment:** AI models can enhance and accelerate the diagnostic process, shortening the time it takes to diagnose a patient and initiate therapy sooner (Chunk 27 | Page 5). Doctors can be assisted with rapid and accurate diagnosis and the development of appropriate treatment plans (Chunk 46 | Page 9).\n*   **Reduced Administrative Burden for Nurses:** AI can save nurses a significant amount of time by handling paperwork and regulations. Nurses reportedly spend about \"a quarter of their shift\" on these tasks, time that could otherwise be spent with patients (Chunk 27 | Page 5). AI can streamline administrative tasks for nurses (Chunk 46 | Page 9, Chunk 47 | Page 9).\n*   **Decreased Patient Wait Times:** AI has the potential to decrease patient wait times (Chunk 46 | Page 9).\n*   **Increased Workforce Efficiency:** AI can increase workforce efficiency by processing information, thereby freeing up healthcare professionals to focus on vital tasks (Chunk 45 | Page 8).\n*   **Adaptability:** AI in healthcare has the ability to adapt quickly to new situations (Chunk 27 | Page 5).\n*   **Regulatory Compliance:** AI can guarantee compliance with regulatory standards (Chunk 47 | Page 9).\n\n### Potential Drawbacks and Challenges of AI in Healthcare\n\n*   **Workplace Tensions:** The discussion of using AI in healthcare has \"stoked\" workplace tensions (Chunk 30 | Page 5).\n*   **Challenging Issues:** The goal of making AI a cornerstone of healthcare has prompted careful study of many challenges and downsides (Chunk 30 | Page 5).\n*   **Specific Issues to Resolve:** To address the drawbacks of AI, it is necessary to resolve issues related to:\n    *   Data accessibility (Chunk 47 | Page 9)\n    *   Data privacy (Chunk 47 | Page 9)\n    *   ChatGPT authenticity (Chunk 47 | Page 9)\n    *   Accountability (Chunk 47 | Page 9)\n    *   Health associate training (Chunk 47 | Page 9)\n*   **Training Requirements:** There is a need for proper training for doctors, nurses, and other associated staff to handle AI equipment accurately for disease screening and treatment. AI education should be designed for healthcare workers' understanding, while still allowing for personal decisions (Chunk 45 | Page 8).",
+    "sources": [
+      "e:\\GenAI Assignment 1\\sample_papers\\Analysis of the Effects of AI on healthcare  sector.pdf"
+    ],
+    "source_pages": [
+      0,
+      5,
+      8,
+      9
+    ],
+    "response_time_ms": 6807.0,
+    "chunk_count_retrieved": 8,
+    "tokens_estimated": 958,
+    "error": null
+  },
+  "config_2": {
+    "config_name": "Config-2 (Large Chunks)",
+    "embed_model": "models/gemini-embedding-001",
+    "vector_store_type": "Chroma",
+    "answer": "According to the paper, the use of Artificial Intelligence (AI) in the healthcare sector presents several potential benefits and drawbacks.\n\n### Potential Benefits of AI in Healthcare:\n\n*   **Enhanced Efficiency and Accuracy:** AI systems can improve the quality of medicine by increasing efficiency, consistency, and accuracy (Chunk 5). They are great at managing data, making accurate diagnoses quickly, and adapting to new situations, which can increase worker productivity (Chunk 0).\n*   **Assistance for Medical Professionals:** AI can assist doctors with rapid and accurate diagnosis and the development of appropriate treatment plans (Chunk 22). It can provide doctors with the confidence needed to move forward with treatment plans, especially for early detection (Chunk 12). AI models can substantially enhance the volume of information doctors can process, shortening diagnosis times and accelerating treatment initiation (Chunk 12).\n*   **Streamlined Administrative Tasks:** AI can save nurses a significant amount of time by handling paperwork and regulations, tasks that typically occupy about a quarter of their shift (Chunk 12, Chunk 22). This allows healthcare professionals to focus on more vital tasks (Chunk 21).\n*   **Reduced Patient Wait Times:** AI has the potential to decrease patient wait times (Chunk 22).\n*   **Rapid Detection and Adaptation:** AI systems can adapt quickly to new situations and detect rare symptoms or bacterial strains far more quickly than a doctor or lab (Chunk 12).\n*   **Personalized Treatment:** AI has progressed to provide individualized treatment, diagnosis, and prevention (Chunk 5).\n*   **Regulatory Compliance:** AI can guarantee compliance with regulatory standards (Chunk 22).\n*   **Problem Solving and Decision Making:** Computer systems programmed with AI can mimic human intelligence in analysis, problem solving, and decision-making (Chunk 1).\n\n### Potential Drawbacks and Concerns of AI in Healthcare:\n\n*   **Clinical Implementation and Healthcare Problems:** There are contentious issues, including worries about clinical implementation and possible healthcare problems (Chunk 1). There are also many questions regarding the practical application of AI in healthcare (Chunk 18).\n*   **Data Breaches and Privacy Concerns:** There is a likelihood of data breaches (Chunk 1). Electronic health records, if filled out by a thorough AI, could contain more sensitive patient information, leading to legitimate privacy worries and ethical concerns with AI in health services (Chunk 14). Issues related to data accessibility and data privacy need to be resolved (Chunk 22).\n*   **Unreliability of AI Platforms (e.g., ChatGPT):** The most widely used AI platform, ChatGPT, has been shown to be unreliable when it comes to references used in medical articles. In a study, out of 115 references produced by ChatGPT for medical papers, 47% were false, 46% were real but wrong, and 7% were real but misinterpreted the data (Chunk 14). ChatGPT authenticity is an issue that needs resolution (Chunk 22).\n*   **Job Displacement Fears:** People are worried that artificial intelligence and robots would take their employment, creating a stigma that might stir up trouble at work (Chunk 18).\n*   **Human and Social Biases:** Massive human and social biases may exist due to social disparities in the underlying data. This could result in the selection of one race or type of person over another based on superficial characteristics like skin color or country of birth, especially since AI acquires skills by analyzing historical data and systems (Chunk 18).\n*   **Accountability and Training:** Issues related to accountability and health associate training need to be addressed to resolve the drawbacks of AI (Chunk 22).\n*   **Exaggerated Expectations:** While AI is expected to be ahead of the curve in data analysis and avoid human mistakes, this may not always be the case due to inflated expectations (Chunk 18).",
+    "sources": [
+      "e:\\GenAI Assignment 1\\sample_papers\\Analysis of the Effects of AI on healthcare  sector.pdf"
+    ],
+    "source_pages": [
+      0,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "response_time_ms": 8777.65,
+    "chunk_count_retrieved": 8,
+    "tokens_estimated": 1906,
+    "error": null
+  },
+  "summary": {
+    "winner_speed": "Config-1 (Small Chunks)",
+    "speed_diff_ms": 1970.66,
+    "config_1_succeeded": true,
+    "config_2_succeeded": true
+  }
+}
